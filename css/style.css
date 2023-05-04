@@ -24,7 +24,8 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
-	line-height: 1;
+	line-height: 2;
+background-color: darkseagreen;
 }
 
 ol, ul {
@@ -50,3 +51,28 @@ table {
 
 
 /* Write your css below here */
+
+form{
+	display: flex;
+	flex-direction: column;
+	border: 2px solid blue;
+	width: 400px;
+	background-color: bisque;
+	color: #a089ff;
+}
+
+fieldset{
+	border: 2px solid #bb2a2a;
+
+}
+
+header{
+	color: #47553e;
+	background-color: aquamarine;
+	min-height: 100px;
+	font-size: xx-large;
+}
+
+.heading{
+	font-size: medium;
+}
