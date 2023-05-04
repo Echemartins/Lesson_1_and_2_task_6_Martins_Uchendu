@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="icon" href="../Image/download.png">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Martins Secondary School</h1>
+            <img src="../Image/downloadimage.jpg" alt="Students" height="60px">
+            <div class="heading">
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact us</a>
+            </div>
+        </header>
+        <form action="#" method="post">
+            <h2>Registration Form</h2>
+            <fieldset>
+                <legend>Enter Personal information</legend>
+                <label for="name">Enter Username</label><br>
+                <input type="text" id="name" value="Username"><br>
+                <label for="email">Enter email address</label><br>
+                <input type="text" id="email" value="emai_address"><br>
+                <label for="phone">Enter phone number</label><br>
+                <input type="number" id="phone" value="Phone_number"><br>
+                <label for="bio">Tell us about you</label><br>
+                <textarea name="bio" id="bio" cols="30" rows="10">bio</textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Sex</legend>
+                <input type="radio" id="sexm" name="sex" value="male">
+                <label for="sexm">male</label><br>
+                <input type="radio" id="sexf" name="sex" value="female">
+                <label for="sexf">female</label><br><br>
+                <h3>Choose Subjects</h3>
+                <input type="checkbox" id="maths" name="maths" value="Choose">
+                <label for="maths">Mathematiss</label><br>
+                <input type="checkbox" id="english" name="english" value="Choose">
+                <label for="english">Englis Language</label><br>
+                <input type="checkbox" id="chemistry" name="chemistry" value="Choose">
+                <label for="chemistry">Chemistry</label><br>
+                <input type="checkbox" id="biology" name="biology" value="Choose">
+                <label for="biology">Biology</label><br>
+                <label for="state">Choose State of  Origin</label>
+                <select name="state" id="state">
+                    <option value="anambra">Anambra</option>
+                    <option value="abia">Abia</option>
+                    <option value="delta">Delta</option>
+                    <option value="enugu">Enugu</option>
+                    <option value="kano">Kano</option>
+                    <option value="bayelsa">Bayelsa</option>
+                    <option value="kogi">Kogi</option>
+                    <option value="akwa_Ibom">Akwa Ibom</option>
+                    <option value="ebonyi">Ebonyi</option>
+                    <option value="sokoto">Sokoto</option>
+                </select>
+            </fieldset><br>
+            <fieldset>
+                <legend>Login</legend>
+                <label for="user">Enter Username</label><br>
+                <input type="text" id="user"><br>
+                <label for="pass">Enter password</label><br>
+                <input type="password" id="pass">
+            </fieldset>
+            <button type="submit">submit</button>
+        </form>
+    </body>
+</html>
